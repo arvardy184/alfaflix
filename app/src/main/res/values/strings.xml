@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Alfaflix</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Discover</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="action_back">Go back</string>
+
+    <!-- Home -->
+    <string name="home_title">Alfaflix</string>
+    <string name="home_section_recently_viewed">Jump back in</string>
+    <string name="home_section_discover">Popular right now</string>
+    <string name="home_surprise_me_description">Open a random movie from the list</string>
+    <string name="home_surprise_me_unavailable">Surprise me is unavailable until movies have loaded</string>
+    <string name="home_about_description">About Alfaflix</string>
+    <string name="home_end_of_list">You\'ve reached the end</string>
+    <string name="empty_discover_title">No movies to show</string>
+    <string name="empty_discover_subtitle">TMDB returned an empty list. Pull down to refresh.</string>
+
+    <!-- Search -->
+    <string name="search_field_label">Search movies</string>
+    <string name="search_field_placeholder">Search by title…</string>
+    <string name="search_clear">Clear search</string>
+
+    <!-- Detail -->
+    <string name="detail_overview">Overview</string>
+    <string name="detail_status">Status</string>
+    <string name="detail_released">Released</string>
+    <string name="detail_runtime">%1$d min</string>
+    <string name="detail_poster_description">Poster for %1$s</string>
+    <string name="detail_no_overview">No synopsis is available for this movie yet.</string>
+    <!-- The score comes from TMDB's own community, not from IMDb or critics. -->
+    <string name="detail_score">%1$s / 10</string>
+    <string name="detail_score_source">TMDB user score</string>
+    <string name="detail_score_votes">%1$s votes</string>
+    <string name="detail_score_description">TMDB user score %1$s out of 10 from %2$s votes</string>
+    <string name="detail_score_description_no_votes">TMDB user score %1$s out of 10</string>
+
+    <!-- Trailer -->
+    <string name="trailer_title">Trailer</string>
+    <string name="trailer_loading">Looking for a trailer…</string>
+    <string name="trailer_none">No trailer is listed for this movie.</string>
+    <string name="trailer_failed">Couldn\'t load the trailer.</string>
+    <string name="trailer_play_description">Play the trailer for %1$s</string>
+    <string name="trailer_needs_connection">Trailers need an internet connection. Connect and try again.</string>
+    <string name="trailer_playback_failed">This video can\'t be played inside the app.</string>
+    <string name="trailer_open_youtube">Watch on YouTube</string>
+
+    <!-- Reviews -->
+    <string name="reviews_title">Reviews</string>
+    <string name="reviews_loading">Loading reviews…</string>
+    <string name="reviews_empty">No reviews yet. Be the first to write one on TMDB.</string>
+    <string name="reviews_failed">Couldn\'t load reviews.</string>
+    <string name="reviews_read_more">Read more</string>
+    <string name="reviews_show_less">Show less</string>
+    <string name="reviews_rating">%1$s / 10</string>
+
+    <!-- Favorite action. Names the movie so the label is meaningful out of context. -->
+    <string name="favorite_add">Add %1$s to favorites</string>
+    <string name="favorite_remove">Remove %1$s from favorites</string>
+    <string name="favorite_save_short">Save to favorites</string>
+    <string name="favorite_saved_short">Saved</string>
+
+    <!-- Empty states -->
+    <string name="empty_search_title">Find your next movie</string>
+    <string name="empty_search_subtitle">Search by title to explore thousands of films.</string>
+    <string name="empty_no_results_title">No movies found</string>
+    <string name="empty_no_results_subtitle">Try a different title or check the spelling.</string>
+    <string name="empty_favorites_title">Your favorite movies will appear here</string>
+    <string name="empty_favorites_subtitle">Tap the heart on any movie to save it for later.</string>
+    <string name="empty_offline_search_title">Search needs a connection</string>
+    <string name="empty_offline_search_subtitle">You can still browse your favorites and previously loaded movies while offline.</string>
+
+    <!-- Errors. Technical detail never reaches the user. -->
+    <string name="error_offline">You\'re offline. Check your connection and try again.</string>
+    <string name="error_timeout">That took too long. Please try again.</string>
+    <string name="error_server">Something went wrong on our side. Please try again.</string>
+    <string name="error_not_found">We couldn\'t find that movie.</string>
+    <string name="error_missing_api_key">No TMDB access token is configured. Add TMDB_READ_ACCESS_TOKEN to local.properties and rebuild — see the README.</string>
+    <string name="error_invalid_api_key">TMDB rejected the configured access token. Check TMDB_READ_ACCESS_TOKEN in local.properties — see the README.</string>
+    <string name="error_rate_limited">TMDB is busy right now. Wait a moment and try again.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="action_retry">Retry</string>
+
+    <!-- Cached / stale content -->
+    <string name="stale_offline">You\'re offline · Showing saved data</string>
+    <string name="stale_refresh_failed">Couldn\'t refresh · Showing saved data</string>
+    <string name="stale_updated">Updated %1$s</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_description">Alfaflix is a movie discovery app. Browse what\'s popular, read what people think, and watch the trailer — and keep your favorites, even offline.</string>
+    <string name="about_tmdb_notice">This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</string>
+    <string name="about_tmdb_section">Data</string>
+    <string name="about_youtube_section">Trailers</string>
+    <string name="about_youtube_notice">Trailers are played through YouTube\'s embedded player and are subject to YouTube\'s terms of service.</string>
+    <string name="about_offline_section">Offline</string>
+    <string name="about_offline_notice">Movies you have already loaded, their details and reviews, your favorites and your history are available without a connection. Trailers and search need one.</string>
+    <string name="about_version">Version %1$s</string>
+
+    <string name="loading_more">Loading more movies</string>
+</resources>

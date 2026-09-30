@@ -1,0 +1,16 @@
+## Copy to local.properties (git-ignored) and fill in. Never commit real values.
+
+# Android SDK location — Android Studio writes this for you.
+# sdk.dir=C\:\Users\you\AppData\Local\Android\Sdk
+
+# TMDB "API Read Access Token" (the long eyJ... value): themoviedb.org → Settings → API.
+TMDB_READ_ACCESS_TOKEN=
+
+# Optional, debug builds only: point the app at a mock/proxy server instead of TMDB.
+# TMDB_BASE_URL=http://10.0.2.2:8765/3/
+
+# Optional: sign release builds with your own key (otherwise the debug key is used).
+# RELEASE_STORE_FILE=
+# RELEASE_STORE_PASSWORD=
+# RELEASE_KEY_ALIAS=
+# RELEASE_KEY_PASSWORD=
